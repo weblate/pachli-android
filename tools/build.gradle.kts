@@ -22,7 +22,7 @@ subprojects {
     apply(plugin = "application")
 
     dependencies {
-        "implementation"("com.github.ajalt.clikt:clikt:3.5.2")
+        "implementation"("com.github.ajalt.clikt:clikt:4.2.1")
     }
 
     tasks.withType<KotlinCompile>().configureEach {
